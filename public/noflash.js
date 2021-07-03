@@ -37,7 +37,7 @@
     localStorage.setItem(storageKey, mql.matches)
   } else {
     // source of truth from document.body
-    var isDarkMode = document.body.classList.contains(classNameLight)
+    var isDarkMode = document.body.classList.contains(classNameDark)
     localStorage.setItem(storageKey, JSON.stringify(isDarkMode))
   }
 })()
