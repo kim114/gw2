@@ -11,8 +11,8 @@
 
   function setClassOnDocumentBody(darkMode) {
     //document.body.classList.add(classNameDark)
-    document.body.classList.add(darkMode ? classNameDark : classNameLight)
-    document.body.classList.remove(darkMode ? classNameLight : classNameDark)
+    //document.body.classList.add(darkMode ? classNameDark : classNameLight)
+    //document.body.classList.remove(darkMode ? classNameLight : classNameDark)
   }
 
   var preferDarkQuery = '(prefers-color-scheme: dark)'
