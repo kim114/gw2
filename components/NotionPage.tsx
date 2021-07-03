@@ -158,6 +158,11 @@ export const NotionPage: React.FC<types.PageProps> = ({
     pageAside = <PageSocial />
   }
 
+  
+      console.log(111111111111111111111111111111111111111)
+      console.log(darkMode.value)
+  
+  
   return (
     <TwitterContextProvider
       value={{
@@ -208,10 +213,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         )}
 
         <title>{title}</title>
-      </Head>
-      
-      console.log(111111111111111111111111111111111111111)
-      console.log(darkMode.value)
+      </Head>      
       
       <CustomFont site={site} />
 
