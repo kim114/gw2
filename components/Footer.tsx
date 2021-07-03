@@ -77,7 +77,6 @@ export const Footer: React.FC<{
           </a>
         )}
       </div>
-      <div>轻微改动测试能否动态部署</div>
     </footer>
   )
 }
