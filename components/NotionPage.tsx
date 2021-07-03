@@ -210,6 +210,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         <title>{title}</title>
       </Head>
       
+      console.log(111111111111111111111111111111111111111)
       console.log(darkMode.value)
       
       <CustomFont site={site} />
