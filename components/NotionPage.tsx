@@ -145,7 +145,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
           repo={config.utterancesGitHubRepo}
           issueMap='issue-term'
           issueTerm='title'
-          theme={darkMode.value ? 'github-light' : 'photon-dark'}
+          theme='photon-dark'
+          //theme={darkMode.value ? 'github-light' : 'photon-dark'}
         />
       )
     }
