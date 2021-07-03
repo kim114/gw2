@@ -84,6 +84,10 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const searchParams = new URLSearchParams(params)
 
   const darkMode = useDarkMode(false, { classNameDark: 'dark-mode' })
+  
+  console.log(111111111111111111111111111111111111111)
+  console.log(darkMode.value)
+  console.log(darkMode.toggle)
 
   if (router.isFallback) {
     return <Loading />
@@ -145,7 +149,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
           repo={config.utterancesGitHubRepo}
           issueMap='issue-term'
           issueTerm='title'
-          theme={darkMode.value ? 'github-light' : 'photon-dark'}
+          theme={darkMode.value ? 'photon-dark' : 'github-light'}
         />
       )
     }
@@ -158,9 +162,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
     pageAside = <PageSocial />
   }
 
-  
-      console.log(111111111111111111111111111111111111111)
-      console.log(darkMode.value)
   
   
   return (
