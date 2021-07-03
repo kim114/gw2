@@ -11,8 +11,8 @@ export type MappingType =
   | 'issue-term'
 
 export type Theme =
-  | 'github-light'
   | 'github-dark'
+  | 'github-light'
   | 'preferred-color-scheme'
   | 'github-dark-orange'
   | 'icy-dark'
