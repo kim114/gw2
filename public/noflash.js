@@ -10,7 +10,7 @@
   var classNameLight = 'light-mode'
 
   function setClassOnDocumentBody(darkMode) {
-    document.body.classList.add(darkMode ? classNameLight : classNameDark)
+    document.body.classList.add(darkMode ? classNameDark : classNameLight)
     //document.body.classList.remove(darkMode ? classNameDark : classNameLight)
   }
 
