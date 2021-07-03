@@ -209,7 +209,9 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
         <title>{title}</title>
       </Head>
-
+      
+      console.log(darkMode.value)
+      
       <CustomFont site={site} />
 
       {isLiteMode && <BodyClassName className='notion-lite' />}
