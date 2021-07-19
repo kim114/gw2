@@ -1,14 +1,14 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: 'Kim-s-Blog-d2851e389270411296678b93671245eb',
+  rootNotionPageId: '2-f9e3b9688fbc45bb87d8c37b88a61bf7',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Kim',
-  domain: 'blog.kstu.vip',
+  name: '激战2导航站',
+  domain: 'gw2.kstu.vip',
   author: 'Kim Huang',
 
   // open graph metadata (optional)
